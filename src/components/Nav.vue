@@ -24,11 +24,7 @@ export default {
     flex-direction: row;
     height: 20px;
     flex-wrap: nowrap;
-    padding-left: 80px;
     p{
-      font-family: Lato;
-      font-style: normal;
-      font-weight: normal;
       font-size: 14px;
       line-height: 150%;
       color: #33374E;

@@ -1,22 +1,22 @@
 <template>
-  <div class='wrapper'>
+  <div class='app-wrapper'>
     <Header />
     <Nav />
-    <ShopList />
+    <ShoppingBasket />
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
 import Nav from './components/Nav.vue'
-import ShopList from './components/ShoppingBasket/ShopList.vue'
+import ShoppingBasket from './components/ShoppingBasket/ShoppingBasket.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
     Nav,
-    ShopList,
+    ShoppingBasket,
   },
   data() {
     return {
@@ -35,12 +35,12 @@ export default {
   }
   #app {
     width: 100%;
+
+  }
+  .app-wrapper {
+    padding-left: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .wrapper{
-    width: 100%;
-    max-width: 1440px;
   }
 </style>

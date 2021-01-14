@@ -7,12 +7,14 @@
       :key='item.id'
       :about='item.about'
       :vendor='item.vendorCode'
+      :image='goods[item.id]'
     />
   </ul>
 </template>
 
 <script>
 import data from '../../assets/data'
+import goods from '../../assets/goods/goods'
 import ListItem from './ListItem.vue'
 
 export default {
@@ -24,11 +26,17 @@ export default {
     return {
       data,
       ListItem,
+      goods,
     }
   },
 }
 </script>
 
 <style>
-
+  ul{
+    list-style: none;
+    max-width: 800px;
+    margin: 0;
+    padding: 0;
+  }
 </style>

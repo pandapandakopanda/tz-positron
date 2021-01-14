@@ -52,17 +52,11 @@ export default {
       margin-right: 82px;
       margin-bottom: 25px;
        #title {
-        font-family: Lato;
-        font-style: normal;
-        font-weight: normal;
         font-size: 14px;
         line-height: 150%;
         color: #1F2432;
         }
       #goods, #summ  {
-        font-family: Lato;
-        font-style: normal;
-        font-weight: normal;
         font-size: 12px;
         line-height: 145%;
         color: #797B86;
